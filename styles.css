@@ -56,3 +56,35 @@ textarea:focus {
     width: auto;
     margin-left: 0.3rem;
 }
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3px;
+}
+
+button {
+    padding: 0.7rem 1.7rem;
+    border: 1px solid #b8b8b8;
+    border-radius: 4px;
+}
+
+button:first-of-type {
+    border: 2px solid #b8b8b8;
+    background-color: #a8dadc;
+}
+
+button:first-of-type:hover {
+    background-color: #fbfcfc;
+    cursor: pointer;
+}
+
+button:nth-of-type(2) {
+    background-color: #1d3557;
+    color: white;
+}
+
+button:nth-of-type(2):hover {
+    cursor: pointer;
+    background-color: #264570;
+}

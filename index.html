@@ -53,22 +53,28 @@
                     <h2>How should we reply?</h2>
                     <ul>
                         <li class="form-control">
-                            <input type="radio" name="contact-me" id="contact-call" required>
+                            <input type="radio" name="contact-me" id="contact-call" value="call" required>
                             <label for="contact-call">Call me</label>
                         </li>
                         <li class="form-control">
-                            <input type="radio" name="contact-me" id="contact-email" required>
+                            <input type="radio" name="contact-me" id="contact-email" value="email" required>
                             <label for="contact-email">Send me an email</label>
                         </li>
                         <li class="form-control">
-                            <input type="radio" name="contact-me" id="dont-contact" required>
+                            <input type="radio" name="contact-me" id="dont-contact" value="dontcontact" required>
                             <label for="dont-contact"> Don't reply</label>
                         </li>
                     </ul>
-
-
-
-
+                </section>
+                <section>
+                    <div class="form-control">
+                        <input type="checkbox" name="agree-terms" id="agreeterms">
+                        <label for="agreeterms">Accept Terms</label>
+                    </div>
+                </section>
+                <section class="btn">
+                    <button type="reset">Clear</button>
+                    <button type="submit">Submit</button>
                 </section>
             </form>
         </main>

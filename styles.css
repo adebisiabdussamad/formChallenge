@@ -30,7 +30,8 @@ form h2 {
 }
 
 input,
-textarea {
+textarea,
+select {
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #b8b8b8;

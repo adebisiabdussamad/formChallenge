@@ -32,17 +32,18 @@
                         </li>
                         <li>
                             <label for="userphone">Your Phone Number</label>
-                            <input type="number" name="user-phone" id="userphone" required>
+                            <!-- <input type="number" name="user-phone" id="userphone" required> -->
+                            <input type="tel" name="user-phone" id="userphone" required minlength="5">
                         </li>
                     </ul>
                 </section>
                 <section class="your-message">
                     <label for="usermessage">Your Message</label>
-                    <textarea name="user-message" id="usermessage" rows="10"></textarea>
+                    <textarea name="user-message" id="usermessage" rows="10" minlength="10" maxlength="200"></textarea>
                 </section>
                 <section class="contacted-us">
                     <label for="found-us-through">How did you find us?</label>
-                    <select name="found-us-through" id="found-us-through">
+                    <select name="found-us-through" id="found-us-through" required>
                         <option value="websearch">Web Search</option>
                         <option value="youtube">Youtube</option>
                         <option value="google">Google</option>
@@ -68,7 +69,7 @@
                 </section>
                 <section>
                     <div class="form-control">
-                        <input type="checkbox" name="agree-terms" id="agreeterms">
+                        <input type="checkbox" name="agree-terms" id="agreeterms" required>
                         <label for="agreeterms">Accept Terms</label>
                     </div>
                 </section>

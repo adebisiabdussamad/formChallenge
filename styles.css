@@ -39,9 +39,20 @@ select {
     margin-bottom: 1rem;
     color: rgb(61, 58, 58);
     font: inherit;
+    display: block;
+    border-radius: 4px;
 }
 
 input:focus,
 textarea:focus {
     background-color: #f1faee;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control input {
+    width: auto;
+    margin-left: 0.3rem;
 }

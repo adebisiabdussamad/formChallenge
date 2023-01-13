@@ -29,7 +29,8 @@ form h2 {
     font-family: 'Amaranth', sans-serif;
 }
 
-input {
+input,
+textarea {
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #b8b8b8;
@@ -39,6 +40,7 @@ input {
     font: inherit;
 }
 
-input:focus {
+input:focus,
+textarea:focus {
     background-color: #f1faee;
 }
